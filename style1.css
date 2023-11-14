@@ -142,8 +142,13 @@ nav.scrollmenu a:hover {
   position: absolute;
   top: 0;
 }
-a:link {
-  color: Black;
+a {
+  color: black; /* Set the color to red (you can use any valid color value) */
+  text-decoration: none; /* Optional: Removes the underline typically applied to links */
+}
+
+a:hover {
+  color: red; /* Set the color to green when the link is hovered over */
 }
 
     </style>
